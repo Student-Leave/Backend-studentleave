@@ -3,12 +3,14 @@
     "name": "studentleave",
     "builds": [
         {
+            "public": true,
             "src": "server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
+            "public": true,
             "src": "/(.*)",
             "dest": "server.js",
             "headers": {
