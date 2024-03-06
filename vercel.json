@@ -9,7 +9,6 @@
     ],
     "routes": [
         {
-            "public": true,
             "src": "/(.*)",
             "dest": "server.js",
             "headers": {
