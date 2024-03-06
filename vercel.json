@@ -3,7 +3,6 @@
     "name": "studentleave",
     "builds": [
         {
-            "public": true,
             "src": "server.js",
             "use": "@vercel/node"
         }
